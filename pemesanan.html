@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VirCar</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <header>
+        <H1>VirCar</H1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="Mobil.html">Mobil</a></li>
+          <li><a href="pemesanan.html">Pemesanan</a></li>
+          <li><a href="tentang.html">Tentang Kami</a></li>
+          <li><a href="syarat.html">Syarat dan Ketentuan</a></li>
+        </ul>
+
+	<h1 class="hh">Form Pemesanan Rental Mobil</h1>
+	<form>
+
+		<label for="alamat">Alamat:</label><br>
+		<textarea id="alamat" name="alamat"></textarea><br>
+
+		<label for="telp">No. Telp:</label><br>
+		<input type="text" id="telp" name="telp"><br>
+
+		<label for="tgl_sewa">Tanggal Sewa:</label><br>
+		<input type="date" id="tgl_sewa" name="tgl_sewa"><br>
+
+		<label for="tgl_kembali">Tanggal Kembali:</label><br>
+		<input type="date" id="tgl_kembali" name="tgl_kembali"><br>
+
+		<label for="mobil">Mobil:</label><br>
+		<select id="mobil" name="mobil">
+			<option value="Avanza">Toyota Avanza</option>
+			<option value="Daihatsu">Daihatsu Terios</option>
+			<option value="Daihatsu">Daihatsu Xenia</option>
+            <option value="Ertiga">Suzuki Ertiga</option>
+		</select><br>
+
+        <div class="ask">
+            <label>Pelayanan</label><br>
+            <input type="checkbox" id="snack" name="pelayanan">
+            <label for="snack">snack</label><br>
+            <input type="checkbox" id="bantal" name="pelayanan">
+            <label for="bantal">bantal</label><br>
+            <input type="checkbox" id="minuman" name="pelayanan">
+            <label for="minuman">minuman</label></div>
+
+            <label for="Kategori penyewa">Kategori penyewa </label><br>
+            <input type="radio" id="perorangan" name="kategori" value="Perorangan">Perorangan
+            <input type="radio" id="perusahaan" name="kategori" value="Perusahaan">Perusahaan<br>
+    
+
+            <div class="file">
+            <label>Upload berkas persyaratan disini!</label><br><input type="file"><br>
+
+            <label for="Apakah ingin menggunakan supir">Apakah ingin menggunakan Supir:</label><br>
+		        <input type="radio" id="Ya" name="supir" value="Ya">Ya
+		        <input type="radio" id="Tidak" name="supir" value="Tidak">Tidak<br>
+
+		<input type="submit" value="Submit" id="submit">
+	</form>
+    <footer>
+        <p>&copy; 2023 VirCar</p>
+      </footer>
+</body>
+<script src="pemesanan.js" ></script>
+</html>

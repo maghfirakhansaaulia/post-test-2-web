@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image : url("background.png")
+  }
+ 
+  header {
+    color: peru;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #banner {
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  #banner h1 {
+    font-size: 10px;
+    margin: 0;
+  }
+  
+  #banner p {
+    font-size: 50px;
+    padding-bottom: 10px;
+    color :black
+   
+  }
+.gambar1,.gambar2,.gambar3,.gambar4{
+    width: 1000px;
+    height: 500px;
+}
+.hh{
+  color: black;
+}
+
+H2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color : black;
+}
+
+H4{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color :black;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+}
+
+H5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color : black;
+    font-size: large;
+}
+p{
+    margin: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   color : black
+}
+.hd{
+  color: black;
+  text-align: left;
+  font-size: medium;
+}
+VIRCAR.png{
+    width: 50px;
+    height: 50px;
+
+    }
+
+
+.layanan,.layanan2,.layanan3{
+      width: 500px;
+      height: 500px;
+  }
+
+ .H1{
+  color : black
+ }
